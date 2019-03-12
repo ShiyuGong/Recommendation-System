@@ -9,6 +9,7 @@ In terms of this project, we try to learn from data and recommend best books to 
 
 ## Technique 
 In the total pool, there are 134,697 books and 73,600 users. Firstly, the bar chart is made to give us a first look on how the data spread. We can see that the rating tends to be relatively positive (83% of the ratings > = 4), which may be due to the fact that unhappy readers tend to just leave instead of making efforts to rate. As a result, it indicates that low rating books are generally very bad. 
+
 ![barchart](https://user-images.githubusercontent.com/43686840/54166891-91f86f80-4424-11e9-8de7-d56ffdf17e1f.png)
 
 Before building the model, to improve the data quality, the following two steps are done: remove books with too less reviews (they are relatively not popular); remove users who give too less reviews (they are relatively less active). After trimming down the data, the data size changes from 200K records to 130K.
